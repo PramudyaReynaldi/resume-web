@@ -4,7 +4,7 @@
     font-family: poppins;
 }
 body {
-    background-image: url(assets/Background.png);
+    background-image: url(/assets/Background.png);
 }
 .navbar-nav {
     gap: 20px;
@@ -37,6 +37,8 @@ body {
 .row h3 {
     color: #002265;
     letter-spacing: 0.005em;
+    font-size: 24.7px;
+    font-weight: bold;
 }
 .row h2 {
     color: #002265;
@@ -48,7 +50,7 @@ body {
     color: #082032;
     font-size: 20px;
     font-weight: 400;
-    line-height: 34px;
+    line-height: 24.7px;
     letter-spacing: 0.015em;
 }
 .hero-img img {
