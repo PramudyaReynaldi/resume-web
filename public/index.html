@@ -23,11 +23,14 @@
       <!-- style.css -->
       <link rel="stylesheet" href="css/style.css" />
       <title>My Resume</title>
+
+      <!-- AOS LINK -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
    </head>
    <body>
       <!-- NAVBAR -->
       <header>
-         <nav class="navbar navbar-expand-lg">
+         <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                <a class="navbar-brand" href="#"
                   ><span>Pramudya</span>Reynaldi</a
@@ -55,7 +58,7 @@
                         <a class="nav-link" href="#passions">Passions</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                      </li>
                      <button type="button" class="btn btn-primary">
                         Contact Me
@@ -68,76 +71,176 @@
       <!-- NAVBAR END -->
 
       <!-- BANNER -->
-      <section class="banner">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-6">
-                  <h3>Hi !</h3>
-                  <h2>I'm Pramudya Reynaldi.</h2>
-                  <h2>a Front-End Developer</h2>
-                  <p>
-                     Front-End developer based in Tangerang Indonesian. I’am
-                     coding with a clean and beautiful problem solving in mind.
-                  </p>
-               </div>
-               <div class="col-lg-6">
-                  <div class="hero-img">
-                     <img src="assets/heroImg_1.png" class="img-fluid" />
+      <div data-aos="zoom-in-down" data-aos-duration="1000">
+         <section class="banner">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-6">
+                     <h3>Hi !</h3>
+                     <h2>I'm Pramudya Reynaldi.</h2>
+                     <h2>a Front-End Developer</h2>
+                     <p>
+                        Front-End developer based in Tangerang Indonesian. I’am
+                        coding with a clean and beautiful problem solving in
+                        mind.
+                     </p>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hero-img">
+                        <img src="assets/heroImg_1.png" class="img-fluid" />
+                     </div>
                   </div>
                </div>
             </div>
-         </div>
-      </section>
+         </section>
+      </div>
       <!-- BANNER END -->
 
       <!-- PASSIONS -->
-      <section id="passions">
+      <div data-aos="flip-left" data-aos-duration="1000">
+         <section id="passions">
+            <div class="container">
+               <div class="passions-text">
+                  <h3>Additional<span> passions</span></h3>
+               </div>
+               <div
+                  class="row row-cols-1 row-cols-md-2 g-4 mt-3 justify-content-evenly"
+               >
+                  <div class="col-lg-4">
+                     <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+                        <img
+                           src="assets/undraw_Wireframing_1.png"
+                           class="img-fluid"
+                        />
+                        <h4 class="text-center mt-3 fw-bold">
+                           Front-End Developer
+                        </h4>
+
+                        <hr />
+
+                        <img
+                           src="assets/logo_html.png"
+                           alt=""
+                           class="img-fluid img-skills"
+                        />
+                        <img
+                           src="assets/logo_css.png"
+                           alt=""
+                           class="img-fluid img-skills"
+                        />
+                        <img
+                           src="assets/logo_js.png"
+                           alt=""
+                           class="img-fluid img-skills"
+                        />
+                        <img
+                           src="assets/logo_bootstrap.png"
+                           alt=""
+                           class="img-fluid img-skills"
+                        />
+                     </div>
+                  </div>
+                  <div class="col-lg-4">
+                     <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+                        <img
+                           src="assets/undraw_Detailed_analysis_1.png"
+                           class="img-fluid"
+                        />
+                        <h4 class="text-center mt-3 fw-bold">
+                           Back-End Developer
+                        </h4>
+                        <hr />
+
+                        <img
+                           src="assets/logo_nodejs.png"
+                           alt=""
+                           class="img-fluid img-be ms-3"
+                        />
+                        <img
+                           src="assets/logo_expressjs.png"
+                           alt=""
+                           class="img-fluid img-be ms-3"
+                        />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+      <!-- PASSIONS -->
+
+      <!-- PORTOFOLIO -->
+      <section id="portfolio">
          <div class="container">
             <div class="passions-text">
-               <h3>Additional<span> passions</span></h3>
+               <h3>My <span>Portfolio</span></h3>
             </div>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-               <div class="col">
-                  <div class="card">
-                     <img src="assets/undraw_Wireframing_1.png" class="card-img-top" />
-                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                           This is a longer card with supporting text below as a
-                           natural lead-in to additional content. This content
-                           is a little bit longer.
-                        </p>
-                     </div>
+            <div class="row mt-5 justify-content-evenly">
+               <div class="col-lg-5">
+                  <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+                     <a
+                        target="_blank"
+                        href="https://pramudya-car-rentals.vercel.app/"
+                     >
+                        <img
+                           src="assets/portfolio_1.png"
+                           class="img-fluid img-porto"
+                        />
+                     </a>
                   </div>
                </div>
-               <div class="col">
-                  <div class="card">
-                     <img src="assets/undraw_Design_process_1.png" class="card-img-top" />
-                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                           This is a longer card with supporting text below as a
-                           natural lead-in to additional content. This content
-                           is a little bit longer.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col">
-                  <div class="card">
-                     <img src="assets/undraw_Detailed_analysis_1.png" class="card-img-top" />
-                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                           This is a longer card with supporting text below as a
-                           natural lead-in to additional content.
-                        </p>
-                     </div>
+               <div class="col-lg-5">
+                  <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+                     <a
+                        target="_blank"
+                        href="https://to-do-list-pramudyareynaldi.vercel.app/"
+                     >
+                        <img
+                           src="assets/portfolio_2.png"
+                           class="img-fluid img-todo"
+                        />
+                     </a>
                   </div>
                </div>
             </div>
          </div>
       </section>
+      <!-- PORTOFOLIO END -->
+
+      <!-- CONTACT ME -->
+      <section id="contact">
+         <div class="container">
+            <div class="passions-text">
+               <h3>Contact <span>Me</span></h3>
+            </div>
+            <div class="row mt-5">
+               <div class="col-lg-3">
+                  <a target="_blank" href="https://github.com/PramudyaReynaldi">
+                     <img src="assets/Git.png" class="img-fluid" />
+                  </a>
+               </div>
+               <div class="col-lg-3">
+                  <a
+                     target="_blank"
+                     href="https://www.instagram.com/pramu.reyn/"
+                  >
+                     <img src="assets/Instagram.png" class="img-fluid" />
+                  </a>
+               </div>
+               <div class="col-lg-3">
+                  <a target="_blank" href="mailto:prmdy02@gmail.com">
+                     <img src="assets/Email.png" class="img-fluid" />
+                  </a>
+               </div>
+               <div class="col-lg-3">
+                  <a target="_blank" href="https://wa.me/62895332178875">
+                     <img src="assets/telpon.png" class="img-fluid" />
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- CONTACT ME END -->
 
       <!-- JS BOOSTRAP -->
       <script
@@ -145,5 +248,13 @@
          integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
          crossorigin="anonymous"
       ></script>
+
+      <!-- AOS SCRIPT -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+      <!-- AOS INIT -->
+      <script>
+         AOS.init();
+      </script>
    </body>
 </html>
