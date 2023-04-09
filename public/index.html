@@ -60,9 +60,11 @@
                      <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                      </li>
-                     <button type="button" class="btn btn-primary">
-                        Contact Me
-                     </button>
+                     <a href="#contact">
+                        <button type="button" class="btn btn-primary">
+                           Contact Me
+                        </button>
+                     </a>
                   </ul>
                </div>
             </div>
@@ -106,7 +108,7 @@
                <div
                   class="row row-cols-1 row-cols-md-2 g-4 mt-3 justify-content-evenly"
                >
-                  <div class="col-lg-4">
+                  <div class="col-lg-4 col-md-6">
                      <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
                         <img
                            src="assets/undraw_Wireframing_1.png"
@@ -140,7 +142,7 @@
                         />
                      </div>
                   </div>
-                  <div class="col-lg-4">
+                  <div class="col-lg-4 col-md-6">
                      <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
                         <img
                            src="assets/undraw_Detailed_analysis_1.png"
@@ -170,41 +172,43 @@
       <!-- PASSIONS -->
 
       <!-- PORTOFOLIO -->
-      <section id="portfolio">
-         <div class="container">
-            <div class="passions-text">
-               <h3>My <span>Portfolio</span></h3>
-            </div>
-            <div class="row mt-5 justify-content-evenly">
-               <div class="col-lg-5">
-                  <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
-                     <a
-                        target="_blank"
-                        href="https://pramudya-car-rentals.vercel.app/"
-                     >
-                        <img
-                           src="assets/portfolio_1.png"
-                           class="img-fluid img-porto"
-                        />
-                     </a>
+      <div data-aos="flip-left" data-aos-duration="1000">
+         <section id="portfolio">
+            <div class="container">
+               <div class="passions-text">
+                  <h3>My <span>Portfolio</span></h3>
+               </div>
+               <div class="row mt-5 justify-content-evenly">
+                  <div class="col-lg-4 col-md-6 col-10">
+                     <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+                        <a
+                           target="_blank"
+                           href="https://pramudya-car-rentals.vercel.app/"
+                        >
+                           <img
+                              src="assets/portfolio_1.png"
+                              class="img-fluid img-porto"
+                           />
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-10">
+                     <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+                        <a
+                           target="_blank"
+                           href="https://to-do-list-pramudyareynaldi.vercel.app/"
+                        >
+                           <img
+                              src="assets/portfolio_2.png"
+                              class="img-fluid img-todo"
+                           />
+                        </a>
+                     </div>
                   </div>
                </div>
-               <div class="col-lg-5">
-                  <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
-                     <a
-                        target="_blank"
-                        href="https://to-do-list-pramudyareynaldi.vercel.app/"
-                     >
-                        <img
-                           src="assets/portfolio_2.png"
-                           class="img-fluid img-todo"
-                        />
-                     </a>
-                  </div>
-               </div>
             </div>
-         </div>
-      </section>
+         </section>
+      </div>
       <!-- PORTOFOLIO END -->
 
       <!-- CONTACT ME -->
@@ -213,10 +217,10 @@
             <div class="passions-text">
                <h3>Contact <span>Me</span></h3>
             </div>
-            <div class="row mt-5">
+            <div class="row mt-5 justify-content-center">
                <div class="col-lg-3">
                   <a target="_blank" href="https://github.com/PramudyaReynaldi">
-                     <img src="assets/Git.png" class="img-fluid" />
+                     <img src="assets/Git.png" class="img-fluid img-contact" />
                   </a>
                </div>
                <div class="col-lg-3">
@@ -224,23 +228,42 @@
                      target="_blank"
                      href="https://www.instagram.com/pramu.reyn/"
                   >
-                     <img src="assets/Instagram.png" class="img-fluid" />
+                     <img
+                        src="assets/Instagram.png"
+                        class="img-fluid img-contact"
+                     />
                   </a>
                </div>
                <div class="col-lg-3">
                   <a target="_blank" href="mailto:prmdy02@gmail.com">
-                     <img src="assets/Email.png" class="img-fluid" />
+                     <img
+                        src="assets/Email.png"
+                        class="img-fluid img-contact"
+                     />
                   </a>
                </div>
                <div class="col-lg-3">
                   <a target="_blank" href="https://wa.me/62895332178875">
-                     <img src="assets/telpon.png" class="img-fluid" />
+                     <img
+                        src="assets/telpon.png"
+                        class="img-fluid img-contact"
+                     />
                   </a>
                </div>
             </div>
          </div>
       </section>
       <!-- CONTACT ME END -->
+
+      <!-- FOOTER -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+         <path
+            fill="#608AF5"
+            fill-opacity="1"
+            d="M0,160L80,165.3C160,171,320,181,480,165.3C640,149,800,107,960,85.3C1120,64,1280,64,1360,64L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+         ></path>
+      </svg>
+      <!-- FOOTER END -->
 
       <!-- JS BOOSTRAP -->
       <script
