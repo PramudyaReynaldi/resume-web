@@ -10,5 +10,8 @@
   },
   "keywords": [],
   "author": "Pramudya Reynaldi Salim <prmdy02@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
 }
