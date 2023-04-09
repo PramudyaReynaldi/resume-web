@@ -32,7 +32,7 @@ body {
 
 /* BANNER */
 .banner {
-    padding-top: 5rem;
+    padding-top: 7rem;
 }
 .row h3 {
     color: #002265;
@@ -73,3 +73,32 @@ body {
     color: #002265;
     font-weight: bold;
 }
+.col-lg-4 .shadow {
+    height: 90%;
+}
+.img-skills {
+    width: 75px;
+}
+.img-be {
+    width: 100px;
+}
+/* PASSIONS END */
+
+/* PORTFOLIO */
+#portfolio {
+    padding-top: 8rem;
+}
+.img-porto {
+    width: 416px;
+}
+.img-todo {
+    width: 416px;
+    height: 294px;
+}
+/* PORTFOLIO END */
+
+/* CONTACT */
+#contact {
+    padding-top: 8rem;
+}
+/* CONTACT END*/
